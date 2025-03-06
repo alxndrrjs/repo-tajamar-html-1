@@ -7,19 +7,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- 1.1. Título de la página -->
     <title>Mi primera página</title>
+
+    <!-- Estilos CSS -->
+    <style>
+        body {
+            text-align: center;
+        }
+
+        h3 {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .boton {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .enlace {
+            text-decoration: none;
+        }
+
+        .enlace:visited {
+            color: blue;
+        }
+    </style>
+
 </head>
-<body style="text-align: center;">
+<body>
 
     <!-- 1.2. Texto en página -->
-    <h3 style="font-family: Arial, Helvetica, sans-serif;">Ejercicio 1</h3>
+    <h3>Ejercicio 1</h3>
     <p>Hola mundo</p>
 
     <hr>
 
     <!-- Enlace a ejercicio2.html -->
-    <h3 style="font-family: Arial, Helvetica, sans-serif;">Ejercicio 2</h3>
+    <h3>Ejercicio 2</h3>
     <a href="ejercicio2.html">
-        <button style="padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px; cursor: pointer;">
+        <button class="boton">
             Ir al ejercicio 2
         </button>
     </a>
@@ -27,13 +55,21 @@
     <hr>
 
     <!-- 3. Elementos HTML -->
-    <h3 style="font-family: Arial, Helvetica, sans-serif;">Ejercicio 3</h3>
-    
+    <h3>Ejercicio 3</h3>
+
     <!-- 3.1. Nombre completo -->
     <h1>Alexander Paolo Rojas Barrios</h1>
 
     <!-- 3.2. Breve descripción de tu profesión o estudios -->
     <p>Soy un entusiasta de la informática, con algo experiencia en desarrollo web y programación.</p>
+
+    <hr>
+
+    <!-- 4. Atributos HTML -->
+    <h3>Ejercicio 4</h3>
+
+    <!-- 4.1. Enlace clicable -->
+    <a href="https://www.youtube.com" target="_blank" class="enlace">Visitar YouTube</a>
 
 </body>
 </html>
