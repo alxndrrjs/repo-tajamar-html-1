@@ -39,6 +39,31 @@
         .enlace:visited {
             color: blue;
         }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin: 20px 25%;
+            font-family: Arial, sans-serif;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            text-align: left;
+        }
+
+        td {
+            padding: 8px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+        
+        tr:hover {
+            background-color: #ddd;
+        }
+
     </style>
 
 </head>
@@ -174,5 +199,30 @@
     <!-- 13.1. Título nuevo -->
     <h1>El nuevo título es "Aprendiendo HTML"</h1>
 
+    <hr>
+
+    <!-- 14. Tablas -->
+    <h3 class="ejercicio">Ejercicio 14</h3>
+
+    <table>
+
+        <!-- 14.1. Encabezado de la tabla -->
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+        </tr>
+
+        <!-- 14.2. Datos de la tabla -->
+        <tr>
+            <td>Ana</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>Luis</td>
+            <td>30</td>
+        </tr>
+
+    </table>
+    
 </body>
 </html>
