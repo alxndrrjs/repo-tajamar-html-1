@@ -64,6 +64,27 @@
             background-color: #ddd;
         }
 
+        .listas {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px 16%;
+            gap: 5px;
+        }
+
+        ul {
+            padding: 0;
+            margin: 0;
+            padding: 10px;
+            width: 45%;
+        }
+
+        li {
+            margin-bottom: 10px; /* Añade espacio entre los elementos de la lista */
+        }
+
+        .elmts {
+            text-align: left    ;
+        }
     </style>
 
 </head>
@@ -223,6 +244,35 @@
         </tr>
 
     </table>
+
+    <hr>
+
+    <!-- 15. Listas -->
+    <h3 class="ejercicio">Ejercicio 15</h3>
+
+    <div class="listas">
+
+        <!-- 15.1. Lista ordenada -->
+         <section>
+            <h4>Pasos para hacer café</h1>
+        
+            <ol class="elmts">
+                <li>Calienta agua hasta que comience a hervir.</li>
+                <li>Agrega el café molido al filtro y vierte el agua caliente sobre él.</li>
+            </ol>
+         </section>
+
+        <!-- 15.2. Lista desordenada -->
+         <section class="elmts">
+            <h4>Ingredientes de una pizza</h1>
+    
+            <ul>
+                <li>Queso</li>
+                <li>Tomate</li>
+                <li>Jamón</li>
+            </ul>
+         </section>
+    </div>
     
 </body>
 </html>
