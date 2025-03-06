@@ -1,1 +1,1 @@
-# repo-tajamar-html-1
+# html-ejercicios-1
