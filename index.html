@@ -97,6 +97,14 @@
         }
     </style>
 
+    <!-- 26.1. Script para evitar que el formulario envíe datos al servidor y hacer una redirección -->
+    <script>
+        function redirigir() {
+        window.location.href = "procesar-datos.html";
+        return false;
+        }
+    </script>
+
 </head>
 <body>
 
@@ -390,6 +398,23 @@
     <form onsubmit="this.reset(); return false;">
         <label for="username">Nombre de usuario:</label><br>
         <input type="text" id="username" name="username" required>
+        <br>
+        <br>
+        <button type="submit">Registrarse</button>
+    </form>
+
+    <hr>
+
+    <!-- 26. Atributos de formulario -->
+    <h3 class="ejercicio">Ejercicio 26</h3>
+
+    <form onsubmit="return redirigir()" method="post">
+        <label for="usename">Nombre de usuario:</label><br>
+        <input type="username" id="username" name="username" required>
+        <br>
+        <br>
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" required>
         <br>
         <br>
         <button type="submit">Registrarse</button>
